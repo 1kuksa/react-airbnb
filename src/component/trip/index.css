@@ -1,0 +1,33 @@
+.trip {
+	display: flex;
+	flex-direction: column;
+	gap:24px;
+}
+.trip__list{
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+}
+
+
+
+
+.trip__link {
+	font-weight: 500;
+	font-size: 16;
+	color: #000;
+	opacity: 1;
+	transition: opacity 0.3s ease;
+	
+}
+.trip__link:hover {
+	opacity: 0.5;}
+
+.price__list-item {
+	border-bottom: 1px solid #dee2e6;
+	padding-bottom: 8px;
+	padding-top: 6px;
+	font-size: 16px;
+	display: flex;
+	gap: 12px;
+}

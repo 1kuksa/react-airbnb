@@ -1,0 +1,14 @@
+.heading {
+	display: flex;
+	font-size: 32px;
+	font-weight: bold;
+	color: #000;
+	max-width: 100%
+	
+}
+
+.heading--border {
+	
+	padding-bottom: 8px;
+	border-bottom: 1px solid #dee2e6;
+}

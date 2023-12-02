@@ -1,0 +1,45 @@
+.title {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.title__text {
+	font-size: 56px;
+	font-weight: bold;
+	color: #000;
+}
+
+.title__sub-block {
+	display: flex;
+	gap: 16px;
+}
+.title__sub-value:not(:last-child)::after{
+	content: "";
+	display: block;
+	height: 4px;
+	width: 4px;
+	border-radius: 4px;
+	background-color: #000;
+}
+.contact {
+	display: flex;
+	gap: 20px;
+}
+.contact__block {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 20px;
+}
+.avatar {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+.contact__info{
+	padding-top: 20px;
+	color: #000;
+	font-size: 16px;
+	line-height: 1.5em;
+}
